@@ -1,0 +1,71 @@
+2018-12-11 21:19:39,295 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:19:39,307 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:19:50,354 [main] INFO DriverAction.class - Launching the application with URL : https://www.facebook.com/
+2018-12-11 21:19:51,111 [main] INFO BrowserAction.class - Enter text with locator : By.id: email
+2018-12-11 21:19:51,398 [main] INFO BrowserAction.class - Enter text with locator : By.id: pass
+2018-12-11 21:20:04,037 [main] INFO BrowserAction.class - clickButton with locator : By.id: loginbutton
+2018-12-11 21:20:04,893 [main] INFO BrowserAction.class - viewElementDisplayed with locator : By.xpath: //h1[@data-click='bluebar_logo']
+2018-12-11 21:24:22,023 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:24:22,031 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:24:31,928 [main] INFO DriverAction.class - Launching the application with URL : https://www.facebook.com/
+2018-12-11 21:24:33,514 [main] INFO BrowserAction.class - Enter text with locator : By.id: email
+2018-12-11 21:24:33,908 [main] INFO BrowserAction.class - Enter text with locator : By.id: pass
+2018-12-11 21:24:47,592 [main] INFO BrowserAction.class - clickButton with locator : By.id: loginbutton
+2018-12-11 21:24:48,042 [main] INFO BrowserAction.class - viewElementDisplayed with locator : By.xpath: //h1[@data-click='bluebar_logo']
+2018-12-11 21:31:04,988 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:31:04,995 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:31:11,225 [main] ERROR DriverAction.class - Exception during launching the app <{}> org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 74 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'mangesh-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51604}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\mangesh\AppData\Local\Temp\scoped_dir2816_31600}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 91e1fad320c653380c60a0f3b5df5db7
+2018-12-11 21:31:11,360 [main] ERROR BrowserAction.class - Exception in getElement method of BrowserActions classorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 62 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'mangesh-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51604}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\mangesh\AppData\Local\Temp\scoped_dir2816_31600}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 91e1fad320c653380c60a0f3b5df5db7
+*** Element info: {Using=id, value=email}
+2018-12-11 21:31:11,849 [main] ERROR BrowserAction.class - Exception in enterText method of BrowserActions class<{}> java.lang.Exception
+2018-12-11 21:32:28,037 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:32:28,045 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:32:34,424 [main] ERROR DriverAction.class - Exception during launching the app <{}> org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'mangesh-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51622}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\mangesh\AppData\Local\Temp\scoped_dir9156_10464}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 02f7cc86bcd8fc3f560b3a073811f91b
+2018-12-11 21:33:42,975 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:33:42,990 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:34:31,431 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:34:31,439 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:34:43,836 [main] INFO DriverAction.class - Launching the application with URL : https://www.facebook.com/
+2018-12-11 21:34:44,608 [main] INFO BrowserAction.class - Enter text with locator : By.id: email
+2018-12-11 21:34:44,971 [main] INFO BrowserAction.class - Enter text with locator : By.id: pass
+2018-12-11 21:35:03,133 [main] INFO BrowserAction.class - clickButton with locator : By.id: loginbutton
+2018-12-11 21:35:03,757 [main] INFO BrowserAction.class - viewElementDisplayed with locator : By.xpath: //h1[@data-click='bluebar_logo']
+2018-12-11 21:35:57,894 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:35:57,901 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:36:11,626 [main] INFO DriverAction.class - Launching the application with URL : https://www.facebook.com/
+2018-12-11 21:36:12,313 [main] INFO BrowserAction.class - Enter text with locator : By.id: email
+2018-12-11 21:36:12,582 [main] INFO BrowserAction.class - Enter text with locator : By.id: pass
+2018-12-11 21:36:27,167 [main] INFO BrowserAction.class - clickButton with locator : By.id: loginbutton
+2018-12-11 21:36:27,531 [main] INFO BrowserAction.class - viewElementDisplayed with locator : By.xpath: //h1[@data-click='bluebar_logo']
+2018-12-11 21:41:09,961 [main] INFO DriverAction.class - ---------------------------------------START THE SCENARIO-------------------------------------------------------------------
+2018-12-11 21:41:09,974 [main] INFO DriverAction.class - Driver is inilizing
+2018-12-11 21:41:23,789 [main] INFO DriverAction.class - Launching the application with URL : https://www.facebook.com/
+2018-12-11 21:41:24,587 [main] INFO BrowserAction.class - Enter text with locator : By.id: email
+2018-12-11 21:41:24,909 [main] INFO BrowserAction.class - Enter text with locator : By.id: pass
+2018-12-11 21:41:45,522 [main] INFO BrowserAction.class - clickButton with locator : By.id: loginbutton
+2018-12-11 21:41:46,212 [main] INFO BrowserAction.class - viewElementDisplayed with locator : By.xpath: //h1[@data-click='bluebar_logo']
