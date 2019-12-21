@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 		jsonReport = "target/cucumber.json",
         retryCount = 3,
         detailedReport = true,
-        detailedAggregatedReport = false,
+        detailedAggregatedReport = false, 
         overviewReport = true,
         //coverageReport = true,
         jsonUsageReport = "target/cucumber-usage.json",
