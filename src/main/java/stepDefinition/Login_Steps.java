@@ -41,7 +41,7 @@ public class Login_Steps extends DriverAction{
 		System.out.println("Page is loaded");
 	}
 	
-	@When("^User enter valid Username(.*) and Password(.*)$")
+	@When("^User enter Username(.*) and Password(.*)$")
 	public void credentials(String username,String password) throws Exception{
 		loginPageObj.loginName(driver, username);
 		loginPageObj.loginPassword(driver, password);
@@ -55,6 +55,11 @@ public class Login_Steps extends DriverAction{
 	@Then("^Application should navigate to home page$")
 	public void navigate_hmePage() throws Exception{
 		Assert.assertTrue(homePageObj.verifyImgHeader(driver));
+	}
+	
+	@Then("^Application should not navigate to home page$")
+	public void verify_lgnPage() throws Exception{
+		Assert.assertFalse(homePageObj.verifyImgHeader(driver));
 	}
 	
 	@Then("^should display image header$")
