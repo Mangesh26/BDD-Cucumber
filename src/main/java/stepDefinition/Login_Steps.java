@@ -1,15 +1,10 @@
 package stepDefinition;
 
-import init.util.BrowserAction;
 import init.util.DriverAction;
 
 import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
-
-import com.cucumber.listener.Reporter;
-
 import pageDefination.Home_Page;
 import pageDefination.Login_Page;
 import cucumber.api.java.en.Given;
