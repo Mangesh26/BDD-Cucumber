@@ -44,6 +44,7 @@ public class Login_Steps extends DriverAction{
 	@When("^User enter Username(.*) and Password(.*)$")
 	public void credentials(String username,String password) throws Exception{
 		loginPageObj.loginName(driver, username);
+		logger.info("test121....");
 		loginPageObj.loginPassword(driver, password);
 	}
 	

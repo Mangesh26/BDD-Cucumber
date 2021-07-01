@@ -5,7 +5,7 @@ Feature: User is able to test the login functiionality
     Given User launch the aplication
     And User enter Username<userName> and Password<password>
     When User click on submit button
-    Then Application should not navigate to home page
+    Then Application should navigate to home page
     Examples: 
-      | userName      | password  |
-      | abc@gmail.com | test		  |
+      | userName      | password  	|
+      | standard_user | secret_sauce|

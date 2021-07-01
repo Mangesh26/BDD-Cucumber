@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 
 public interface LoginObject {
 
-	By txtLogin = By.id("email");
-	By txtPassword_id = By.id("pass");
-	By invaliMsg_id = By.id("lblInvalid");
-	By loginButton_id = By.id("loginbutton");
+	By txtLogin = By.id("user-name");
+	By txtPassword_id = By.id("password");
+	By invaliMsg_id = By.className("error-button");
+	By loginButton_id = By.id("login-button");
 	
 }
