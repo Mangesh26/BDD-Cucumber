@@ -12,17 +12,14 @@ import java.util.NoSuchElementException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;

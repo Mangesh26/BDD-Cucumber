@@ -11,25 +11,25 @@
   <url>http://maven.apache.org</url>
   <build>
   <pluginManagement>
-    <plugins>
+    <!-- <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.16</version>
       </plugin>
-    </plugins>
+    </plugins> -->
    </pluginManagement>
   </build>
   <reporting>
     <plugins>
-      <plugin>
+      <!-- <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
         <version>2.19.1</version>
         <configuration>
           <outputDirectory>${basedir}/target/</outputDirectory>
         </configuration>
-      </plugin>
+      </plugin> -->
       <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-compiler-plugin</artifactId>
@@ -83,14 +83,14 @@
     	<version>2.41.1</version>
 	</dependency>
 	<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>3.0.6</version>
+		<groupId>com.aventstack</groupId>
+		<artifactId>extentreports</artifactId>
+		<version>3.0.6</version>
 	</dependency>
 	<dependency>
-			<groupId>com.vimalselvam</groupId>
-			<artifactId>cucumber-extentsreport</artifactId>
-			<version>3.0.1</version>
+		<groupId>com.vimalselvam</groupId>
+		<artifactId>cucumber-extentsreport</artifactId>
+		<version>3.0.1</version>
 	</dependency>
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
