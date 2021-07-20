@@ -26,7 +26,7 @@ import cucumber.api.junit.Cucumber;
 				//format = {"Pretty","html:target/html"},
 				//format={"SimpleHtmlReport:report/smokeTest.html"},
 				strict = true,
-				features = "src/main/resources/Feature/Login.feature",
+				features = "src/main/resources/Feature/",
 				glue = {"stepDefinition"},
 				plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
 						"rerun:target/rerun.txt"
