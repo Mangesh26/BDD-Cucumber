@@ -31,6 +31,7 @@ import cucumber.api.junit.Cucumber;
 //				plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
 //						"rerun:target/rerun.txt"
 //						},
+						plugin={"pretty:target/cucumber-htmlreport.text", "json:target/cucmber-report.json"},
 				monochrome = true,
 				tags = {"@Sanity"}
 				//dryRun = true
