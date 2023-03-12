@@ -10,11 +10,11 @@ import com.github.mkolisnyk.cucumber.runner.*;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "@target/rerun.txt", //Cucumber picks the failed scenarios from this file 
-    glue = {"stepDefinition"},
-	plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/re-runReport.html",
-			"rerun:target/rerun.txt"
-			},
+    //features = "@target/rerun.txt", //Cucumber picks the failed scenarios from this file 
+    //glue = {"stepDefinition"},
+//	plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/re-runReport.html",
+//			"rerun:target/rerun.txt"
+//			},
 	monochrome = true
   )
 public class FailedScenarios {

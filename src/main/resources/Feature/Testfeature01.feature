@@ -7,12 +7,8 @@ Feature: Title of your feature
     When page load
     Then should display image header
 
-  @Smoke
+  @Smoke1
   Scenario: Validate image header2
     Given User launch the aplication
     When page load
     Then should display image header
-    
-      
-
-

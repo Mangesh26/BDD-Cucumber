@@ -125,8 +125,8 @@ public class BrowserAction {
 	}
 	
 	public void reportLogs(String message,String ex){
-		Reporter.addStepLog(message);
-		Reporter.setTestRunnerOutput(message + "<{}> " + ex);
+		//Reporter.addStepLog(message);
+		//Reporter.setTestRunnerOutput(message + "<{}> " + ex);
 		logger.error(message + "<{}> " + ex);
 	}
 

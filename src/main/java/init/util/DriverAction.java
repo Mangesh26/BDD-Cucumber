@@ -73,7 +73,7 @@ public class DriverAction extends BrowserAction{
 					ChromeOptions options = new ChromeOptions();
 					 
 					// add parameter which will disable the extension
-					options.addArguments("--disable-extensions");
+					//options.addArguments("--disable-extensions");
 					
 					driver = new ChromeDriver(options);
 					return driver;

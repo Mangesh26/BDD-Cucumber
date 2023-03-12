@@ -59,8 +59,9 @@ public class Login_Steps extends DriverAction{
 	}
 	
 	@Then("^should display image header$")
-	public void verifyImgHeader() throws Exception {
+	public void verifyImgHeader() {
 			System.out.println("Test");
+			int a=3/0;
 		/*}catch(Exception e){
 			takeSnapShot(driver);
 			//Assert.assertTrue(false);
