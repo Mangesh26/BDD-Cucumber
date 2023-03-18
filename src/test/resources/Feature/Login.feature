@@ -19,3 +19,4 @@ Feature: Verifying the login functiionality
     Examples: 
       | userName      | password  	|
       | standard_user | secret_sauce1|
+      
