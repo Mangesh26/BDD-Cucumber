@@ -21,7 +21,7 @@
 					</configuration>
 				</plugin>
 				
-				<!--<plugin>
+				<plugin>
 	                <groupId>org.apache.maven.plugins</groupId>
 	                <artifactId>maven-surefire-plugin</artifactId>
 	                <version>3.0.0-M3</version>
@@ -33,7 +33,7 @@
 	                    </dependency>
 	                </dependencies>
             	</plugin>
-				<plugin>
+				<!--<plugin>
             	<groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>
@@ -47,7 +47,7 @@
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
-        </plugin> -->
+        </plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
@@ -56,7 +56,7 @@
 						<parallel>methods</parallel>
 						<useUnlimitedThreads>true</useUnlimitedThreads>
 					</configuration>
-				</plugin>
+				</plugin>-->
 			</plugins>
 		</pluginManagement>
 	</build>
