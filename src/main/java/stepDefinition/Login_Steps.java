@@ -34,8 +34,6 @@ public class Login_Steps extends DriverAction{
 	@When("^page load$")
 	public void pageLoad(){
 		System.out.println("Page is loaded");
-		System.out.format("Thread ID - %2d - %s from %s feature file.\n",
-				Thread.currentThread().getId());
 	}
 	
 	@When("^User enter Username(.*) and Password(.*)$")
@@ -43,8 +41,6 @@ public class Login_Steps extends DriverAction{
 		loginPageObj.loginName(driver, username);
 		logger.info("test121....");
 		loginPageObj.loginPassword(driver, password);
-		System.out.format("Thread ID - %2d - %s from %s feature file.\n",
-				Thread.currentThread().getId());
 	}
 	
 	@When("^User click on submit button$")
